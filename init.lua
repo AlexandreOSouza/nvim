@@ -1,7 +1,7 @@
 require("alexandre.plugins-setup")
 require("alexandre.core.options")
 require("alexandre.core.keymaps")
--- require("alexandre.core.colorscheme")
+require("alexandre.core.colorscheme")
 require("alexandre.plugins.comment")
 require("alexandre.plugins.nvim-tree")
 require("alexandre.plugins.lualine")

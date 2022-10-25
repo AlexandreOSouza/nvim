@@ -30,7 +30,8 @@ return packer.startup(function(use)
 
 	use("nvim-lua/plenary.nvim")
 
-	use("bluz71/vim-nightfly-guicolors")
+	--	use("bluz71/vim-nightfly-guicolors")
+	use("folke/tokyonight.nvim")
 
 	use("christoomey/vim-tmux-navigator")
 	use("szw/vim-maximizer")
