@@ -25,13 +25,14 @@ if not status then
 	return
 end
 
+vim.g.nightflyTransparent = true
 return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 
 	use("nvim-lua/plenary.nvim")
 
-	--	use("bluz71/vim-nightfly-guicolors")
-	use("folke/tokyonight.nvim")
+	use("bluz71/vim-nightfly-guicolors")
+	--use("folke/tokyonight.nvim")
 
 	use("christoomey/vim-tmux-navigator")
 	use("szw/vim-maximizer")
