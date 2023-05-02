@@ -56,3 +56,11 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 
 -- restart lsp server (not on youtube nvim video)
 keymap.set("n", "<leader>rs", ":LspRestart<CR>") -- mapping to restart lsp if necessary
+
+-- harpoon
+keymap.set("n", "<leader>ha", ':lua require("harpoon.mark").add_file()<CR>') -- Add file to harpoon list
+keymap.set("n", "<leader>he", ':lua require("harpoon.ui").toggle_quick_menu()<CR>') -- Toggle harpoon menu
+keymap.set("n", "<leader>h1", ':lua require("harpoon.ui").nav_file(1)<CR>') -- Go to file 1
+keymap.set("n", "<leader>h2", ':lua require("harpoon.ui").nav_file(2)<CR>') -- Go to file 2
+keymap.set("n", "<leader>h3", ':lua require("harpoon.ui").nav_file(3)<CR>') -- Go to file 3
+keymap.set("n", "<leader>h4", ':lua require("harpoon.ui").nav_file(4)<CR>') -- Go to file 4

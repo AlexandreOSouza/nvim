@@ -19,17 +19,17 @@ end
 mason.setup()
 
 mason_lspconfig.setup({
-  ensure_installed = {
-    "tsserver",
-    "cssmodules_ls",
-    "eslint",
-    "graphql",
-    "html",
-    "jsonls",
-    "sumneko_lua",
-    "marksman",
-    "solang"
-  }
+	ensure_installed = {
+		"tsserver",
+		"cssmodules_ls",
+		"eslint",
+		"graphql",
+		"html",
+		"jsonls",
+		"lua_ls",
+		"marksman",
+		"solang",
+	},
 })
 
 mason_null_ls.setup({
@@ -42,4 +42,3 @@ mason_null_ls.setup({
 	-- auto-install configured formatters & linters (with null-ls)
 	automatic_installation = true,
 })
-

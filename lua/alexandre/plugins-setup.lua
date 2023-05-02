@@ -30,6 +30,7 @@ return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 
 	use("nvim-lua/plenary.nvim")
+	use("ThePrimeagen/harpoon")
 
 	use("bluz71/vim-nightfly-guicolors")
 	--use("folke/tokyonight.nvim")
