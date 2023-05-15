@@ -29,6 +29,7 @@ mason_lspconfig.setup({
 		"lua_ls",
 		"marksman",
 		"solang",
+		"rust_analyzer",
 	},
 })
 
