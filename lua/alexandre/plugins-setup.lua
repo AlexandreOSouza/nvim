@@ -26,6 +26,10 @@ if not status then
 end
 
 vim.g.nightflyTransparent = true
+vim.g.rust_recommended_style = false
+vim.g.rustfmt_autosave = true
+vim.lsp.buf.format({ async = false })
+
 return packer.startup(function(use)
 	use("wbthomason/packer.nvim")
 
