@@ -25,6 +25,15 @@ keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & height
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
+keymap.set("n", "<leader>sr", "<C-W>r") -- rotate windows
+keymap.set("n", "<leader>sL", "<C-W>L") -- move current window to right
+keymap.set("n", "<leader>sK", "<C-W>K") -- move current window to top
+keymap.set("n", "<leader>sJ", "<C-W>J") -- move current window to bottom
+keymap.set("n", "<leader>sH", "<C-W>H") -- move current window to left
+keymap.set("n", "<leader>h", "<C-W>h") -- move the cursor to the left window
+keymap.set("n", "<leader>k", "<C-W>k") -- move the cursor to the top window
+keymap.set("n", "<leader>j", "<C-W>j") -- move the cursor to the bottom window
+keymap.set("n", "<leader>l", "<C-W>l") -- move the cursor to the right window
 
 keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
 keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
